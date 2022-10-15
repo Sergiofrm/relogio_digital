@@ -1,8 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code&display=swap');
+
 * {
   padding: 0px;
   margin: 0px;
-  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
-    'Lucida Sans', Arial, sans-serif;
+  font-family: 'Fira Code', sans-serif;
 }
 
 body {
@@ -36,8 +37,17 @@ body {
   align-items: center;
   justify-content: center;
   color: #fff;
-  background-color: rgb(5, 4, 4);
-  box-shadow: 5px 5px 15px rgb(5, 4, 4);
-  border: 7px;
+  background-color: rgb(5, 5, 5, 0.9);
+  box-shadow: 5px 5px 15px rgb(0, 0, 0, 0.7);
+  border-radius: 7px;
   letter-spacing: 3px;
+}
+
+.relogio span {
+  font-weight: bolder;
+  font-size: 20px;
+}
+
+.relogio span.tempo {
+  font-size: 20px;
 }
